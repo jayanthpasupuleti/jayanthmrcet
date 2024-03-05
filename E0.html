@@ -6,6 +6,7 @@
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
+    background-color: rgb(170, 138, 138);
 }
 img {
     
@@ -27,18 +28,20 @@ body {
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    color:blue;
 }
 
 nav ul {
     list-style-type: none;
+    color:bisque
 }
 
 nav ul li {
@@ -80,16 +83,16 @@ footer {
 		
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <article>
-            <h2>ABOUT ME</h2>
+            <h2><a name="about">ABOUT ME</a></h2>
             <p>
                Welcome to my blog! computer science engineering student along with specialization in Artificial intelligence and Machine learning .
                 I consider my self a
@@ -102,15 +105,13 @@ footer {
         </article>
         <article>
             <article>
-            <h2>COMPUTER SKILLS</h2>
+            <h2><a name="home">COMPUTER SKILLS</a></h2>
             <p>JAVA <br>DBMS
                 Ms.Excel <br>
                 Ms.Office</p>
            
         </article>
-            
-       
-
+        
          <article>
             <h2>EDUCATION</h2>
             <p>10TH (SSC BOARD)
@@ -134,7 +135,7 @@ footer {
   		AD2-ALZHEIMERS<br>
             </p>
 		
-			<h2>Contact</h2>
+			<h2><a name="contact">Contact</a></h2>
     <p>Email: jayanthpasupuleti72@gmail.com</p>
     <p>Phone: +91 8125275738</p>
     		
